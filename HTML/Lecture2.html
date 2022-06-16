@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+    </head>
+    <body>
+
+        <!-- First Name, Middle Name, Last name, mobile number, email, address, suggestions, submit -->
+
+        <h1>Contact Me</h1>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="first-name">First Name </label></td>
+                    <td><input type="text" name="first-name" required></td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="middle-name">Middle Name</label></td>
+                    <td><input type="text" name="middle-name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="last-name">Last Name</label></td>
+                    <td><input type="text" name="last-name" required></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="gender">Gender</label>
+                    </td>
+                    <td>
+                        <span>Male</span>
+                        <input type="radio" name="gender" value="Male">
+                        <span>Female</span>
+                        <input type="radio" name="gender" value="Female">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mobile-number">Mobile Number</label></td>
+                    <td><input type="tel" name="mobile-number" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email-address">Email Address</label></td>
+                    <td><input type="email" name="email-address"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="address">Address</label></td>
+                    <td><textarea name="address" rows="4"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="suggestions">Suggestions</label></td>
+                    <td><textarea name="suggestions" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
