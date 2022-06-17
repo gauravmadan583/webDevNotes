@@ -1,0 +1,42 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(90deg, black, white);
+    opacity: 0.5;
+    margin: 1px;
+}
+
+h1 {
+    color: #AABBCC;
+    font-size: xx-large;
+}
+
+h2 {
+    color: #BBCCDD;
+    font-size: medium;
+}
+
+p {
+    font-size: small;
+    color: aqua;
+}
+div {
+    margin: 5px 10px 15px 20px;
+    background-color: blue;
+    padding: 5px 15px 25px 35px;
+}
+
+.paragraph {
+    margin: 7px;
+    padding: 3px;
+
+    background-color: red;
+    text-align: center;
+    font-size: larger;
+}
+
+#para{
+    background-color: green;
+}
