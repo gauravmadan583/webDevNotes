@@ -1,0 +1,62 @@
+/* div p {
+    color: blue;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: right;
+} */
+
+/* div > p {
+    color: blue;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: right;
+}
+
+/* div + p {
+    color: red;
+    font-size: small;
+}
+
+div ~ p {
+    color: red;
+    font-size: small;
+} */
+
+p:hover {
+    color: blue;
+    font-size: larger;
+}
+
+a:link {
+    color: red;
+    font-size: small;
+}
+
+a:visited {
+    color: green;
+    font-size: larger;
+    text-decoration: none;
+}
+
+input:focus {
+    background-color: black;
+}
+
+p:first-child {
+    font-style: italic;
+}
+
+p:last-child {
+    font-weight: bolder;
+}
+
+p:nth-child(odd) {
+    text-align: right;
+}
+div:first-child {
+    background-color: black;
+}
+
+div > p:first-child:hover {
+    
+}
