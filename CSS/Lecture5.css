@@ -1,0 +1,45 @@
+div::first-letter{
+    font-size: 1000%;
+    color: red;
+}
+div::first-line{
+    font-size: 200%;
+    color: blue;
+}
+
+input::placeholder{
+    font-size: larger;
+    color: brown;
+}
+
+
+div.myclass:first-child p {
+    color: purple;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid grey;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+    position: relative;
+    left: 100px;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    /* background-color: purple; */
+}
