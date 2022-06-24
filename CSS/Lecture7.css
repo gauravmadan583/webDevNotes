@@ -40,6 +40,18 @@
     padding: 5px;
 }
 
+div.box:nth-child(3n) {
+    background-color: aqua;
+}
+
+div.box:nth-child(3n+1){
+    background-color: bisque;
+}
+
+div:nth-child(3n+2) {
+    background-color: blueviolet;
+} 
+
 .first {
     grid-column-start: 1;
     grid-column-end: 3;
