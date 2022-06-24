@@ -41,5 +41,10 @@ div.myclass:first-child p {
 .sticky {
     position: sticky;
     top: 10px;
-    /* background-color: purple; */
+    background-color: purple;
+}
+
+div:nth-child( 3n + 2) {
+    position: relative;
+    left: 200px;
 }
