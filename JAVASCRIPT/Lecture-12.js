@@ -21,7 +21,7 @@ element[0].style.fontSize = '50px';
 var element2 = document.getElementById("example");
 
 // document.getElementsByClassName("")
-// document.querySelectorAll()
+// document.querySelectorAll("#example .class p")
 console.log(element2);
 
 console.log(element2.href);
@@ -46,13 +46,15 @@ newelement.appendChild(newelement2);
 
 var element3 = document.getElementsByTagName("div");
 
+element3[0].style.backgroundColor = 'blue';
 console.log(element3);
 element3[0].appendChild(newelement2);
 
 var element4 = document.getElementsByTagName("p");
 
 console.log(element4[1]);
-// element3[0].removeChild(element4[1]);
+element4[1].tagName = 'A';
+element3[0].removeChild(element4[1]);
 
 
 
