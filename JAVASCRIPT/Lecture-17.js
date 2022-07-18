@@ -71,6 +71,7 @@ const btn2 = document.getElementById("reset-button");
 btn2.addEventListener('click', () => {
     shape.style.display = "none";
     btn1.disabled = false;
+    startTime = undefined;
     const timeTaken = document.getElementById('time-taken');
     timeTaken.innerHTML = "";
 })
