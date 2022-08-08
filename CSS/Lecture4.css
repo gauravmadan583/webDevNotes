@@ -11,13 +11,13 @@
     font-size: xx-large;
     text-align: right;
 }
-
-/* div + p {
+*/
+ /* div + p {
     color: red;
     font-size: small;
-}
+} */
 
-div ~ p {
+/* div ~ p {
     color: red;
     font-size: small;
 } */
@@ -59,4 +59,4 @@ div:first-child {
 
 div > p:first-child:hover {
     
-}
+} 

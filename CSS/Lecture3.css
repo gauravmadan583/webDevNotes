@@ -29,7 +29,7 @@ div {
     border-radius: 10%;
 }
 
-.paragraph {
+.paragraph, #para {
     margin: 7px;
     padding: 3px;
 

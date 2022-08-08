@@ -109,3 +109,29 @@ const myArray7 = myArray6.filter(x => !(x&1));
 
 console.log(myArray6);
 console.log(myArray7);
+
+const myArray8 = [2, 2, 3, 4, 5];
+
+let ans = 0;
+
+for (x of myArray8){
+    ans += x;
+}
+
+console.log(ans);
+
+
+
+const finalSum = myArray8.reduce((a, b) => {
+    // console.log(prev, curr, sum);
+    // console.log("Prev " + prev);
+    // console.log("Curr " + curr);
+
+
+    return a*b;
+});
+console.log(finalSum);
+console.log(myArray8);
+
+// [1, 2, 3]
+

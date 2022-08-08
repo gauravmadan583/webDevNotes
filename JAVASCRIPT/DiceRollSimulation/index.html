@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        table,tr,td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dice Rolls Game 
+        <a href="./task.html">(Task)</a>
+    </h1>
+
+    <label for="gridSize">Grid Size</label>
+    <input type="number" name="gridSize" id="gridSize">
+    <br>
+    <br>
+    <label for="playerCount">Number of Players</label>
+    <input type="number" name="playerCount" id="playerCount">
+    <br>
+    <br>
+    <input type="button" value="Start Game" id="submit">
+    <br>
+    <br>
+    <table id="card">
+        <thead>
+            <tr>
+                <td>Player Number</td>
+                <td>Dice Roll</td>
+                <td>Dice Roll History</td>
+                <td>Path (Position History)</td>
+                <td>Winner Status</td>
+            </tr>
+        </thead>
+        <tbody id="card-body">
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
