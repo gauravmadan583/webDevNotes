@@ -3,11 +3,6 @@ import React from 'react'
 class BoardGameComponent extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-
-        }
-
-        
     }
 
     componentDidMount() {
@@ -25,7 +20,7 @@ class BoardGameComponent extends React.Component {
                 })}
 
             </div>
-        )
+        );
     }
 }
 
